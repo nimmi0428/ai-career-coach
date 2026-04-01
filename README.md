@@ -184,7 +184,5 @@ resume-report.pdf
 
 ---
 
-## 👩‍💻 Author
-
-**Nimmi**
-Built with focus on real-world product design, AI integration, and user experience.
+## 🌐 Live Demo
+https://ai-career-coach-two-nu.vercel.app/
