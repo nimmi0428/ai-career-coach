@@ -608,7 +608,7 @@ Return ONLY a valid JSON object with:
       setTimeout(() => advanceStep(4), 3200);
       setTimeout(() => advanceStep(5), 4000);
 
-      const res = await fetch("http://localhost:3001/api/analyse", {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/analyse`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt }),
